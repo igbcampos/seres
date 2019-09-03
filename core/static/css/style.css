@@ -622,6 +622,52 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #71c55d;
 }
 
+/* Get Started Section
+--------------------------------*/
+#about-us {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+#about-us .feature-block {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+@media (max-width: 991px) {
+  #about-us .feature-block {
+    margin-bottom: 30px;
+  }
+}
+
+#about-us .feature-block:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#about-us .feature-block h4 {
+  margin-bottom: 20px;
+}
+
+#about-us .feature-block p {
+  margin-bottom: 20px;
+}
+
+#about-us .feature-block a {
+  color: #505050;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+#about-us .feature-block a:hover {
+  color: #71c55d;
+}
+
 /* About Us Section
 --------------------------------*/
 #about-us img {
