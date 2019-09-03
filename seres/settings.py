@@ -25,7 +25,7 @@ SECRET_KEY = '!tl@g3wkda8lga(!tvsk)8q$r5ljsj2vvsfo&#1se9(228sx%2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['seres.ufpi.br','www.seres.ufpi.br','localhost']
 
 
 # Application definition

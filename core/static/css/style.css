@@ -52,7 +52,7 @@ li {
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 p {
@@ -560,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .section-title .separator {
@@ -573,7 +573,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 /* Get Started Section
@@ -614,7 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: 0.3s;
 }
 
@@ -660,7 +660,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: 0.3s;
 }
 
@@ -685,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 #about-us .about-content span {
@@ -968,24 +968,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding: 49px 20px;
 }
 
-#testimonials .testimonials-content::before {
-  color: #71c55d;
-  content: "";
-  display: inline-block;
-  font: 70px/1 FontAwesome;
-  position: absolute;
-  right: 43px;
-  text-align: left;
-  top: -29px;
-}
-
 #testimonials .top-top > h2 {
   font-family: "Roboto" sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 #testimonials .top-top > h4 {
@@ -1123,7 +1112,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog h4 {
   line-height: 24px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: normal;
   letter-spacing: 0;
   font-size: 16px;
@@ -1151,7 +1140,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-decoration: none;
   transition: 0.3s;
   letter-spacing: 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 #blog .block-blog .content-blog a.readmore:hover {
