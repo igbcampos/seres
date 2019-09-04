@@ -25,7 +25,7 @@ SECRET_KEY = '!tl@g3wkda8lga(!tvsk)8q$r5ljsj2vvsfo&#1se9(228sx%2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['seres.ufpi.br','www.seres.ufpi.br','localhost']
+ALLOWED_HOSTS = ['seres.ufpi.br', 'www.seres.ufpi.br', 'localhost']
 
 
 # Application definition
@@ -119,3 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/var/www/html/seres/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/var/www/html/seres/media/'
