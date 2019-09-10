@@ -27,7 +27,7 @@ h4 {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 2;
 }
 
@@ -86,7 +86,7 @@ span {
   font-size: 11px;
   font-weight: 600;
   padding: 15px 40px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -254,7 +254,7 @@ span {
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
   font-size: 13px;
   letter-spacing: 1px;
@@ -278,7 +278,7 @@ span {
   color: #555;
   font-size: 11px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 4px 20px;
   text-decoration: none;
   transition: 0.3s;
@@ -691,7 +691,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #about-us .about-content span {
   font-weight: 700;
   padding-right: 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #about-us .about-content ul li {
@@ -953,7 +953,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-weight: 300;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #team .team-block:hover .team-content {
