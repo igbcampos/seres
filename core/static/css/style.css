@@ -193,7 +193,7 @@ span {
   background: url(../img/hero-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 @media (min-width: 1025px) {
@@ -216,10 +216,10 @@ span {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
+  /* margin: 0 0 10px 0; */
+  font-size: 30px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 46px;
   font-family: "Philosopher", sans-serif;
   color: #71c55d;
 }

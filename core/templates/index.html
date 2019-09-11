@@ -57,6 +57,7 @@
           <li><a href="#testimonials">Trabalhos</a></li>
           <li><a href="#blog">Programação</a></li>
           <li><a href="#features">Palestrantes</a></li>
+          <li><a href="#oficinas">Oficinas</a></li>
           <li><a href="#contact">Local e Contato</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -73,8 +74,7 @@
       <h1>II Mostra de trabalhos científicos sobre Prevenção e Controle de Infecção</h1>
       <h1>II Reunião da RENAIDST</h1>
       <h2>De 29 a 31 de outubro de 2019</h2>
-      <img src="{% static 'img/logo-menor.png' %}" alt="Hero Imgs" style="height: 350px">
-      <!-- <a href="#get-started" class="btn-get-started scrollto">Get Started</a> -->
+      <img src="{% static 'img/logo-menor.png' %}" alt="Hero Imgs" style="height: 250px">
       <h2>Participe e marque #eunoseres2019</h2>
     </div>
   </section><!-- #hero -->
@@ -177,7 +177,7 @@
                 <li>Vanessa Moura Carvalho de Oliveira (Doutoranda/UFPI)</li>    
                 <li>Matheus Marques de Sousa Carvalho (Mestre/UFPI)</li>    
                 <li>Jardel Nascimento Cruz (Mestrando/UFPI)</li>    
-                <li>Láise Rebeca Sousa Carvalho (Graduanda em Enfermagem/UFPI)</li>    
+                <li>Láise Rebeca Sousa Carvalho (Graduanda em Enfermagem/UFPI)</li>  
                 <li>Emanoelle Fernandes Silva (Enfermeira/UFPI)</li>    
                 <li>Leonardo de Sousa Ramos (Apoio Técnico/UFPI)</li>
               </ul>
@@ -229,6 +229,19 @@
                     <li>Romulo Veloso Nunes(Enfermeiro/UFPI)</li>
                     <li>Letícia Caminha Aguiar Lopes (Gaduanda/Odontologia)</li>
                     <li>Newany Santos Sá (Graduanda/Odontologia)</li>
+                  </ul>
+  
+            </div>
+            
+            <br />
+
+            <div class="feature-block">
+
+                <h4>Apoio Técnico</h4>
+                  <ul>
+                    <li>LASCÔ - Laboratório de Soluções Computacionais</li>
+                    <li>Ian Luccas Araújo (Graduando em Ciência da Computação/UFPI)</li> 
+                    <li>Gabriel Costa Campos de Sousa (Graduando em Ciência da Computação/UFPI)</li>
                   </ul>
   
             </div>
@@ -816,17 +829,27 @@
           <div class="block-blog text-left">
             <div class="content-blog">
               <h4><a href="#">Quinta-Feira (31/10)</a></h4>
-              <!-- <span>05, juin 2017</span> -->
-
               <div>
-
-                  <div>
-                    <strong>MANHÃ e TARDE</strong>
-                    <br />
-                    Reunião da RENAIDST (exclusiva para os membros da RENAIDST).
-                  </div>
-  
+                <div>
+                  <strong>MANHÃ e TARDE</strong>
+                  <br />
+                  Reunião da RENAIDST (exclusiva para os membros da RENAIDST).
                 </div>
+    
+                <br />
+
+                <div>
+                  <strong>14:00</strong>
+                  <br />
+                  <strong>Oficina 8:</strong> Iramutec
+                  <br />
+                  <strong>Ministrante:</strong> Profa. Dra. Maria Eliete Batista Moura (UFPI)
+                  <br />
+                  <strong>Monitor:</strong> a definir.
+                  <br />
+                  <strong>Local:</strong> Auditório PPGEnf.
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1010,11 +1033,36 @@
       </div>
     </div>
   </section>
+  
+  <!--==========================
+    Contact Section
+  ============================-->
+  <section id="oficinas" class="padd-section wow fadeInUp" style="background-color: #f5f5f5">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Oficinas</h2>
+        <p class="separator">Informações sobre a Oficina 1: Ferramentas metodológicas em pesquisa: avaliação de estudos primários.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <video height= '400' controls>
+          <source src="{% static 'videos/oficinas.mp4' type='video/mp4' %}">
+          O seu navegador não suporta a exibição desse video.
+        </video>
+          
+
+      </div>
+    </div>
+  </section><!-- #contact -->
 
   <!--==========================
     Contact Section
   ============================-->
-  <section id="contact" class="padd-section wow fadeInUp"  style="background-color: #f5f5f5">
+  <section id="contact" class="padd-section wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
@@ -1069,45 +1117,6 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-
-        <!-- <div class="col-md-12 col-lg-4">
-          <div class="footer-logo">
-
-            <a class="navbar-brand" href="#">eStartup</a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Abou Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div> -->
-
-        <!-- <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Abou Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div> -->
 
         <div class="col-md-6">
           <div class="list-menu">
